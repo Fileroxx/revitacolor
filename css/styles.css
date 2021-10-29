@@ -29,6 +29,7 @@ main .texto span {
 main .texto h1 {
   font-weight: 600;
   font-size: 4rem;
+  line-height: 60px;
   padding-right: 7rem;
   background: -webkit-linear-gradient(#ffffff 20%, #ffffff59 70%, #f9f9f959);
   -webkit-background-clip: text;
@@ -39,6 +40,7 @@ main .texto p {
   font-size: 1.6rem;
   font-weight: 300;
   color: #b7b7b7;
+  margin-top: 0.5rem;
   padding-right: 12rem;
 }
 
@@ -2233,5 +2235,17 @@ footer .logo img {
 
   #section5 .cards .card1 .parcelamento p {
     font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 998px) {
+  #section5 .cards-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 999px) {
+  #section5 .cards-mobile {
+    display: none;
   }
 }
